@@ -9,17 +9,22 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
+
         <h1 style="color:white">Welcome to My Portfolio</h1>
-        <a href=""><button class="button">About</button></a>
-        <a href=""><button class="button">Skills</button></a>
-        <a href=""><button class="button">Projects</button></a>
-        <a href=""><button class="button">Contact</button></a>
+
+        <div>
+            <a href="#about"><button class="button">About</button></a>
+            <a href="#skills"><button class="button">Skills</button></a>
+            <a href="#projects"><button class="button">Projects</button></a>
+            <a href="#contact"><button class="button">Contact</button></a>
+        </div>
+
     </header>
     <main>
         <section id="about">
             <h1>Ganesh Allada</h1>
-            <img src="my image.jpeg" width="250" height="300" alt="Here is my image"><br>
+            <img src="my image.jpeg" width="333" height="333" alt="Here is my image"><br>
             <!about <br>
         </section>
 
@@ -55,27 +60,39 @@
             <h1>Contact Me</h1>
             <p>Feel free to get in touch with me using the form below :</p>
             <form>
-                <lable for="name">Name :</lable>
-                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
-                <lable for="email">Email :</lable>
-                <input type="email" id="email" name="Email" placeholder="Enter your Email"><br><br>
-                <label>Choose your gender :</label>
-                <input type="radio" id="male" name="Gender" value="male">
-                <lable for="male">Male</lable>
-                <input type="radio" id="female" name="Gender" value="female">
-                <lable for="female">Female</lable><br><br>
-                <lable>Select your intrests :</lable>
-                <input type="checkbox" id="coding" name="intrests" value="coding">
-                <lable for="coding">Coding</lable>
-                <input type="checkbox" id="reading" name="intrests" value="reading">
-                <label for="reading">Reading</label><br><br>
-                <lable for="bio">Bio (upto 200 characters) :</lable>
-                <input type="text" id="bio" maxlength="200" placeholder="Enter your Bio here..." name="Bio"><br><br>
-                <button type="submit" class="submit">Submit</button>
+                <div>
+                    <lable for="name">Name :</lable>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <lable for="email">Email :</lable>
+                    <input type="email" id="email" name="Email" placeholder="Enter your Email">
+                </div>
+                <div>
+                    <label>Choose your gender :</label>
+                    <input type="radio" id="male" name="Gender" value="male">
+                    <lable for="male">Male</lable>
+                    <input type="radio" id="female" name="Gender" value="female">
+                    <lable for="female">Female</lable>
+                </div>
+                <div>
+                    <lable>Select your intrests :</lable>
+                    <input type="checkbox" id="coding" name="intrests" value="coding">
+                    <lable for="coding">Coding</lable>
+                    <input type="checkbox" id="reading" name="intrests" value="reading">
+                    <label for="reading">Reading</label>
+                </div>
+                <div>
+                    <lable for="bio">Bio (upto 200 characters) :</lable>
+                    <input type="text" id="bio" maxlength="200" placeholder="Enter your Bio here..." name="Bio">
+                </div>
+                <div>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
             </form>
         </section>
     </main>
-    <button class="fixedButton">Top</button>
+    <a href="#top"><button class="fixedButton">Top</button></a>
     <footer>
         <p>@ 2026 My Portfolio</p>
     </footer>
