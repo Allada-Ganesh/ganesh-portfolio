@@ -29,6 +29,7 @@ body {
 h1 {
     color: rgb(90, 6, 169);
     font-size: 50px;
+    margin-top: 0px;
 }
 
 .button {
@@ -122,4 +123,14 @@ form div {
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    color: rgb(90, 6, 169);
+    font-size: 40px;
+    margin: 0px 0px 25px 0px;
+}
+
+ol {
+    margin: 0px 0px 20px 0px;
 }
